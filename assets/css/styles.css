@@ -16,6 +16,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 1em 0em 1em 0em;
+    align-items: center;
 }
 
 .icon-container{
@@ -27,7 +28,8 @@ body{
 
 .status{
     color: #828485;
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: normal;
 }
 
 h6{
@@ -49,8 +51,9 @@ h6{
 .contact-badges{
     display: flex;
     justify-content: flex-start;
-    gap: 2em;
+    gap: 1em;
     padding: 1em 0em 1em 0em;
+    align-items: center;
 }
 
 .contact-text{
@@ -63,7 +66,7 @@ h6{
 .contact-text h3{
     margin: 0;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .contact-text h5{
@@ -101,9 +104,10 @@ nav{
 .new-chat button{
     color: white;
     background-color: #A491D2;
-    height: 2.5em;
-    width: 10em;
+    height: 3.5em;
+    width: 13em;
     border: none;
+    font-size: 16px;
 }
 .new-chat button:hover{
     background-color: #CDC3E6;
